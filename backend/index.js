@@ -6,7 +6,7 @@ const port = 5000;
 
 // Middleware to handle CORS
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "https://gofood-sklz.vercel.app/");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
