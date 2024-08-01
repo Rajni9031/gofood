@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const mongoURI = 'mongodb+srv://ranveersinghsingh2644:wYEQMsnck8Szdk6e@cluster0.zs1d1kg.mongodb.net/Food-Delivery-App?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://ranveersinghsingh2644:wYEQMsnck8Szdk6e@cluster0.zs1d1kg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 module.exports = function (callback) {
     mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true }, async (err) => {
